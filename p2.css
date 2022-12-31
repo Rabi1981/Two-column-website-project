@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    }
+    .wrapper{
+        border: 5px solid red;
+        margin: 5px 100px;
+    }
+    
+    .header{
+        background-color: darkcyan;
+        height: 150px;
+        border: solid black 5px;
+    }
+   .mynav{
+    background-color: aquamarine;
+    height: 70px;
+    border: solid blue 5px;
+    }
+    .container::after    {
+content: "";
+display: block;
+clear: both;
+*zoom:1;
+    }
+    .container{
+
+        border: solid mediumseagreen 3px;
+    }
+    .content{
+        background-color: antiquewhite;
+       min-height: 500px; 
+        font-size: 20px;
+        width: 80%;
+        float: left;
+    }
+    .Rbar{
+        background-color: rgb(245, 80, 195);
+        min-height: 500px;
+        width: 20%;
+        float: right;
+    }
+    .Rbar>p{
+        text-align: justify;
+        padding: 5px;
+    }
+
+    .footer{
+    background-color: blueviolet;
+    height: 70px;
+    
+    
+    }
